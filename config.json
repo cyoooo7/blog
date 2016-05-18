@@ -1,0 +1,26 @@
+{
+  "locals": {
+    "url": "http://localhost:8001",
+    "name": "Roy Cheng's boring blog",
+    "owner": "Roy Cheng",
+    "description": "A Rush of Blood To the Head"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 3
+  }
+}
