@@ -1,9 +1,9 @@
 {
   "locals": {
     "url": "http://localhost:8001",
-    "name": "Roy Cheng's boring blog",
+    "name": "ROY CHENG 的无趣博客",
     "owner": "Roy Cheng",
-    "description": "A Rush of Blood To the Head"
+    "description": "关于代码、代码工人和他们的BUG"
   },
   "plugins": [
     "./plugins/paginator.coffee"

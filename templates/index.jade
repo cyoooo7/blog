@@ -15,13 +15,13 @@ block content
           != typogr(article.intro).typogrify()
         if article.hasMore
           p.more
-            a(href=article.url) more
+            a(href=article.url) &laquo; 阅读全文
 
 block prepend footer
   div.nav
     if prevPage
       a(href=prevPage.url) &laquo; Newer
     else
-      a(href='/archive.html') &laquo; Archives
+      a(href='/archive.html') &laquo; 目录
     if nextPage
       a(href=nextPage.url) Next page &raquo;
