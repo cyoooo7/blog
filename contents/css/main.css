@@ -464,6 +464,13 @@ pre .javascript .function {
   color: #8959a8;
 }
 
+code.lang-text{
+  font-family: "Microsoft Yahei", serif;
+  font-size: 0.9em;
+  line-height: 1.6em;
+  color: #50545f;
+}
+
 
 /* media queries */
 
