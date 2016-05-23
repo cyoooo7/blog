@@ -1,6 +1,6 @@
 {
   "locals": {
-    "url": "http://localhost:8001",
+    "url": "http://roycheng:8001",
     "name": "ROY CHENG 的无趣博客",
     "owner": "Roy Cheng",
     "description": "关于代码、代码工人和他们的BUG"
@@ -21,6 +21,6 @@
     "smartypants": true
   },
   "paginator": {
-    "perPage": 3
+    "perPage": 10
   }
 }
