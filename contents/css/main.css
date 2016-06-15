@@ -248,7 +248,7 @@ footer .copy a {
 
 .article .content img {
   display: block;
-  width: 100%;
+  max-width: 100%;
 }
 
 .article a:hover {
@@ -323,7 +323,7 @@ footer .copy a {
 
 .archive ul {
   list-style: none;
-  margin: 2em 0 0 0 ;
+  margin: 2em 0 0 0;
 }
 
 .archive ul li {
@@ -465,7 +465,7 @@ pre .javascript .function {
   color: #8959a8;
 }
 
-code.lang-text{
+code.lang-text {
   font-family: "Microsoft Yahei", serif;
   font-size: 0.9em;
   line-height: 1.6em;
