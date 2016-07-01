@@ -21,7 +21,7 @@ function update() {
 }
 
 gulp.task('watch', function() {
-  exec('static-server -p 8001', {
+  exec('static-server -p 80', {
     cwd: paths.build
   });
   update();
