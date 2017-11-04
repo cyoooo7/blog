@@ -11,9 +11,9 @@ template: article.jade
 
 下文介绍一种超简单的方法，不用写一行代码就可轻松实现。
 
-<span class="more"></span>
-
 这里我们需要用到一款名为Fody.Costura的工具。Fody.Costura是一个Fody框架下的插件，可通过Nuget安装到VS工程中。安装之后，就可以将项目所依赖的DLL（甚至PDB）文件全部打包到EXE文件里。
+
+<span class="more"></span>
 
 ### 使用方法
 在VS中，通过Nuget为目标EXE工程安装Costura.Fody。

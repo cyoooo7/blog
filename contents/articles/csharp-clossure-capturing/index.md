@@ -16,8 +16,6 @@ Func<int> incNum = () => ++num;
 
 姑且不说那么多学术定义了。我们进入正题，看看在C#中变量是如何被捕获的。
 
-<span class="more"></span>
-
 来看一个例子：      
 
 ``` C++
@@ -31,6 +29,8 @@ public Func<String> CreateFunction()
 ```
 
 在这个例子中，定义了一个可以返回一个函数的方法CreateFunction。返回的函数构成了一个闭包，该闭包捕获了两个变量：String类型的str和int类型的num。
+
+<span class="more"></span>
 
 我们现在可以这样使用这个函数了:	 
 

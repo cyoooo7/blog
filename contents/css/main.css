@@ -19,14 +19,14 @@ pre {
 
 body {
   font-family: Cambria, Georgia, serif;
-  font-size: 20px;
-  line-height: 1.52;
+  font-size: 17px;
+  line-height: 1.6;
   background-color: #f8f8f8;
   text-rendering: optimizeLegibility;
 }
 
 .content-wrap {
-  width: 34em;
+  width: 40em;
   margin: 0 auto;
 }
 
@@ -42,6 +42,7 @@ a:hover {
 
 p {
   margin-bottom: 1.72em;
+  color: #454547;
 }
 
 pre {
@@ -56,7 +57,7 @@ pre {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 1.5em;
   margin-bottom: 1em;
 }
 
@@ -101,14 +102,14 @@ hr {
 /* page header */
 
 .header {
-  margin: 3em 0 5em;
+  margin: 4.5em 0 7.5em;
 }
 
 .header h1 {
-  font-size: 3em;
+  font-size: 2.8em;
   text-align: center;
   font-weight: 700;
-  margin: 0;
+  margin: 0 0 0.25em 0;
 }
 
 .header a,
@@ -146,7 +147,7 @@ body.article-detail > header h1 {
   font-size: 2.5em;
   font-style: italic;
   font-weight: 400;
-  margin-bottom: -0.2em;
+  /* margin-bottom: -0.2em; */
   color: #000;
 }
 
@@ -215,8 +216,8 @@ footer .copy a {
   font-style: italic;
   text-align: center;
   font-weight: 400;
-  margin: 0.8em 0 1.2em 0;
-  font-size: 1.9em;
+  margin: 1.8em 0 2.2em 0;
+  font-size: 1.7em;
   color: #000;
 }
 
@@ -237,6 +238,7 @@ footer .copy a {
 
 .article.intro .content p {
   display: inline;
+  color: #606062;
 }
 
 .article.intro .content .more {
@@ -251,7 +253,7 @@ footer .copy a {
   max-width: 100%;
 }
 
-.article a:hover {
+.article .content a {
   color: #ff5847;
 }
 
