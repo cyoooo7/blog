@@ -6,13 +6,12 @@ var paths = {
 };
 
 function update() {
-  console.log('git pull >>>');
+  console.log('running: git pull');
   exec('git pull', function(a) {
-    console.log('git pull >>> ' + a);
-    console.log('wintersmith build >>> ');
+    console.log('done: git pull');
+    console.log('running: npm build');
     exec('npm build', function(b) {
-      console.log('wintersmith build >>> ' + b);
-      console.log('>>> updated.');
+      console.log('done: npm build');
       setTimeout(function() {
         update();
       }, 1 * 60 * 1000);
@@ -24,7 +23,7 @@ gulp.task('watch', function() {
   exec('npm run serve', {
     cwd: paths.build
   });
-  console.log('static');
+  console.log('server started');
   update();
 });
 
