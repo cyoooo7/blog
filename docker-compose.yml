@@ -1,0 +1,7 @@
+blog:
+  restart: always
+  build: ./
+  volumes:
+    - ./:/www
+  ports:
+    - "80:8080"

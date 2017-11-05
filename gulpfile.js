@@ -10,7 +10,7 @@ function update() {
   exec('git pull', function(a) {
     console.log('git pull >>> ' + a);
     console.log('wintersmith build >>> ');
-    exec('wintersmith build', function(b) {
+    exec('npm build', function(b) {
       console.log('wintersmith build >>> ' + b);
       console.log('>>> updated.');
       setTimeout(function() {
@@ -21,9 +21,10 @@ function update() {
 }
 
 gulp.task('watch', function() {
-  exec('static-server -p 80', {
+  exec('npm run serve', {
     cwd: paths.build
   });
+  console.log('static');
   update();
 });
 

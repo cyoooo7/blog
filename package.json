@@ -4,7 +4,14 @@
     "moment": "2.3.x",
     "static-server": "^2.0.2",
     "typogr": "0.5.x",
-    "underscore": "1.4.x"
+    "underscore": "1.4.x",
+    "wintersmith": "^2.4.1"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "wintersmith build",
+    "serve": "static-server -p 8080 build",
+    "dev": "wintersmith preview"
   },
   "private": "true"
 }
