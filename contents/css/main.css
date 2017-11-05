@@ -19,10 +19,12 @@ pre {
 
 body {
   font-family: Cambria, Georgia, serif;
+  color: #3B4245;
   font-size: 17px;
-  line-height: 1.6;
-  background-color: #f8f8f8;
+  line-height: 1.75;
+  background-color: white;
   text-rendering: optimizeLegibility;
+  letter-spacing: 0.01rem;
 }
 
 .content-wrap {
@@ -30,35 +32,26 @@ body {
   margin: 0 auto;
 }
 
-body,
 a {
-  color: #171717;
+  color: #ff3817;
 }
 
 a:hover {
-  color: #ff3817;
-  text-decoration: underline;
+  color: #999999;
 }
 
 p {
-  margin-bottom: 1.72em;
-  color: #454547;
+  margin-bottom: 1.75em;
 }
 
 pre {
-  font-size: 0.85em;
+  font-size: 0.95em;
   overflow: auto;
-  background: #fff;
   border: 1px dashed #d2d2d2;
   border-radius: 0.25em;
   margin-top: 1em;
   margin-bottom: 1.8em;
   padding: 1em;
-}
-
-h1 {
-  font-size: 1.5em;
-  margin-bottom: 1em;
 }
 
 h2 {
@@ -72,7 +65,7 @@ h3 {
   font-style: italic;
   text-align: center;
   font-weight: 400;
-  font-size: 1.4em;
+  font-size: 1.35em;
   margin-top: 1.8em;
   margin-bottom: 0.8em;
 }
@@ -103,13 +96,13 @@ hr {
 
 .header {
   margin: 4.5em 0 7.5em;
+  text-align: center;
 }
 
 .header h1 {
   font-size: 2.8em;
-  text-align: center;
   font-weight: 700;
-  margin: 0 0 0.25em 0;
+  margin: 0 0 0.15em 0;
 }
 
 .header a,
@@ -218,11 +211,11 @@ footer .copy a {
   font-weight: 400;
   margin: 1.8em 0 2.2em 0;
   font-size: 1.7em;
-  color: #000;
 }
 
 .article header h2 a {
   text-decoration: none;
+  color: #171717;
 }
 
 .article header .date {
