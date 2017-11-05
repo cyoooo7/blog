@@ -10,7 +10,7 @@ function update() {
   exec('git pull', function(a) {
     console.log('done: git pull');
     console.log('running: npm build');
-    exec('npm build', function(b) {
+    exec('npm run build', function(b) {
       console.log('done: npm build');
       setTimeout(function() {
         update();
