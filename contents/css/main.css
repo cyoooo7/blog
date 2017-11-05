@@ -230,15 +230,14 @@ footer .copy a {
 }
 
 .article.intro .content p {
-  display: inline;
-  color: #606062;
+  margin-bottom: 1em;
 }
 
 .article.intro .content .more {
   text-decoration: underline;
   font-weight: 700;
-  padding-left: 0.3em;
   font-size: 0.9em;
+  text-align: right;
 }
 
 .article .content img {

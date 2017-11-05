@@ -12,6 +12,12 @@ html(lang='en')
           = locals.name
       link(rel='alternate', href='/feed.xml', type='application/rss+xml', title=locals.description)
       link(rel='stylesheet', href=contents.css['main.css'].url)
+      script(async, src='https://www.googletagmanager.com/gtag/js?id=UA-109225268-1')
+      script.
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-109225268-1');    
   body(class=bodyclass)
     header.header
       div.content-wrap
@@ -32,4 +38,3 @@ html(lang='en')
           section.copy
             p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
               a(href='https://github.com/jnordberg/wintersmith') Wintersmith
-              //- please leave the "powered by" if you use the design
